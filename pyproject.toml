@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "DCF"
+name = "ddm"
 version = "0.1.0"
 description = ""
 authors = [
@@ -8,7 +8,9 @@ authors = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.11"
+numpy = "^1.21.4"
+opencv-python = "^4.5.4"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.5.0"
