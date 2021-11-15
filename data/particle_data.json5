@@ -1,0 +1,32 @@
+{
+  A: {
+    material_type: "SiO2",
+    known_diameter: 0.211e-6,
+    std_dev_diameter: 0.008e-6,
+  },
+  B: {
+    material_type: "PS",
+    known_diameter: 0.46e-6,
+    std_dev_diameter: null,
+  },
+  C: {
+    material_type: "SiO2",
+    known_diameter: 0.518e-6,
+    std_dev_diameter: 0.015e-6,
+  },
+  D: {
+    material_type: "SiO2",
+    known_diameter: 0.977e-6,
+    std_dev_diameter: 0.026e-6,
+  },
+  E: {
+    material_type: "SiO2",
+    known_diameter: 2.12e-6,
+    std_dev_diameter: 0.06e-6,
+  },
+  F: {
+    material_type: "SiO2",
+    known_diameter: 9.56e-6,
+    std_dev_diameter: 0.25e-6,
+  },
+}

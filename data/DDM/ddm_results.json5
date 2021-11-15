@@ -1,0 +1,41 @@
+{
+    setups: {
+        20x_1: {
+            objective: "20x",
+            pix2mum: 0.3008,
+        },
+    },
+
+    experiments: {
+        1M01_1: {
+            particle: null,
+            exp_diffusion_coeff: null,
+            exp_diameter: 0.36392e-6,
+            concentration: 0.1,
+            objective: "20x",
+            pix2mum: 0.3008,
+        },
+
+        1M005_1: {
+            particle: null,
+            exp_diffusion_coeff: 0.1504,
+            exp_diffusion_coeff_upper_95: 0.1484,
+            exp_diffusion_coeff_lower_95: 0.1524,
+            exp_diameter: 0.4388e-6,
+            concentration: 0.05,
+            objective: "20x",
+            pix2mum: 0.3008,
+        },
+
+        1E01_1: {
+            particle: "E",
+            exp_diffusion_coeff: 0.01643,
+            exp_diffusion_coeff_upper_95: 0.01589,
+            exp_diffusion_coeff_lower_95: 0.01698,
+            exp_diameter: 3.1479e-6,
+            concentration: 0.1,
+            objective: "20x",
+            pix2mum: 0.3008,
+        },
+    }
+}
