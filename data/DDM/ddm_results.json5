@@ -9,7 +9,7 @@
     experiments: {
         "1M01_1": {
             particle: "M",
-            exp_diffusion_coeff: null,
+            exp_diffusion_coeff: 1.210,
             exp_diameter: 0.36392e-6,
             concentration: 0.1,
             setup: "20x_1",
@@ -18,9 +18,19 @@
         "1M005_1": {
             particle: "M",
             exp_diffusion_coeff: 0.1504,
-            exp_diffusion_coeff_upper_95: 0.1484,
-            exp_diffusion_coeff_lower_95: 0.1524,
+            exp_diffusion_coeff_lower_95: 0.1484,
+            exp_diffusion_coeff_upper_95: 0.1524,
             exp_diameter: 0.4388e-6,
+            concentration: 0.05,
+            setup: "20x_1",
+        },
+
+        "1M001_1": {
+            particle: "M",
+            exp_diffusion_coeff: 0.1415,
+            exp_diffusion_coeff_lower_95: 0.1402,
+            exp_diffusion_coeff_upper_95: 0.1427,
+            exp_diameter: 0.3e-6,
             concentration: 0.05,
             setup: "20x_1",
         },
