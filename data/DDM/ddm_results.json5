@@ -3,6 +3,7 @@
         "20x_1": {
             objective: "20x",
             pix2mum: 0.3008,
+            framerate: 100.0,
         },
     },
 
@@ -34,7 +35,34 @@
             concentration: 0.05,
             setup: "20x_1",
         },
-        
+
+        "1B05": {
+            particle: "B",
+            exp_diffusion_coeff: 0.1801033,
+            exp_diffusion_coeff_lower: 0.1783418,
+            exp_diffusion_coeff_upper: 0.1818648,
+            concentration: 0.5,
+            setup: "20x_1",
+        },
+
+        "1B01": {
+            particle: "B",
+            exp_diffusion_coeff: 0.1801033,
+            exp_diffusion_coeff_lower: 0.1783418,
+            exp_diffusion_coeff_upper: 0.1818648,
+            concentration: 0.1,
+            setup: "20x_1",
+        },
+
+        "1B01_2": {
+            particle: "B",
+            exp_diffusion_coeff: 0.1388194,
+            exp_diffusion_coeff_lower: 0.1354919,
+            exp_diffusion_coeff_upper: 0.1421469,
+            concentration: 0.1,
+            setup: "20x_1",
+        },
+
         "1B01_3": {
             particle: "B",
             exp_diffusion_coeff: 0.1625,
@@ -52,7 +80,7 @@
             concentration: 0.05,
             setup: "20x_1",
         },
-        
+
         "1E01_1": {
             particle: "E",
             exp_diffusion_coeff: 0.01643,
