@@ -1,0 +1,62 @@
+{
+// These DLS results where done with wrong angle calibration.
+// They should be disregarded
+
+    "A28": {
+        "a_known": 0.211e-6,
+        "tau": 12.7e-3,
+        "theta": 28
+    },
+    "A60": {
+        "a_known": 0.211e-6,
+        "tau": 10.76e-3,
+        "theta": 60
+    },
+
+    "B": {
+        "a_known": 0.46e-6,
+        "tau": 3.65e-3,
+        "theta": 28
+    },
+    "C": {
+        "a_known": 0.518e-6,
+        "tau": 4.85e-3,
+        "theta": 60
+    },
+    "D": {
+        "a_known": 0.977e-6,
+        "tau": 39.88e-3,
+        "theta": 28
+    },
+    "E": {
+        "a_known": 2.12e-6,
+        "tau": 493.83e-3,
+        "theta": 28
+    },
+    "F": {
+        "a_known": 9.56e-6,
+        "tau": 94.77e-3,
+        "theta": 28
+    },
+
+    "A18": {
+        "a_known": 0.211e-6,
+        "tau": 27.75e-3,
+        "theta": 18
+    },
+    "A27": {
+        "a_known": 0.211e-6,
+        "tau": 13.26e-3,
+        "theta": 27
+    },
+    "A39": {
+        "a_known": 0.211e-6,
+        "tau": 4.145e-3,
+        "theta": 39
+    },
+    "A55": {
+        "a_known": 0.211e-6,
+        "tau": 6.623e-3,
+        "theta": 55
+    },
+}

@@ -1,0 +1,111 @@
+{
+    // Varying particle size
+    "2B30_01": {
+        tau: 6.3131e-3,
+        theta: 30,
+        concentration: 0.1,
+        particle: "B",
+    },
+    "2C30_01": {
+        tau: 3.5612e-3,
+        theta: 30,
+        concentration: 0.1,
+        particle: "C",
+    },
+    "2D30_01": {
+        tau: 46.4780e-3,
+        theta: 30,
+        concentration: 0.1,
+        particle: "D",
+    },
+
+    // Varying angles
+    "2A25_01": {
+        tau: 5.9559e-3,
+        theta: 25,
+        concentration: 0.1,
+        particle: "A",
+    },
+    "2A35_01": {
+        tau: 7.1491e-3,
+        theta: 35,
+        concentration: 0.1,
+        particle: "A",
+    },
+    "2A45_01": {
+        tau: 3.9524e-3,
+        theta: 45,
+        concentration: 0.1,
+        particle: "A",
+    },
+    "2A55_01": {
+        tau: 4.3698e-3,
+        theta: 55,
+        concentration: 0.1,
+        particle: "A",
+    },
+
+    // Varying concentration
+    "2A30_1": {
+        tau: 79.9692e-3,
+        theta: 30,
+        concentration: 1.0,
+        particle: "A",
+    },
+    "2A30_05": {
+        tau: 12.3358e-3,
+        theta: 30,
+        concentration: 0.5,
+        particle: "A",
+    },
+    "2A30_01": {
+        tau: 7.1663e-3,
+        theta: 30,
+        concentration: 0.1,
+        particle: "A",
+    },
+    "2A30_005": {
+        tau: 9.1268e-3,
+        theta: 30,
+        concentration: 0.05,
+        particle: "A",
+    },
+    "2A30_001": {
+        tau: 8.4276e-3,
+        theta: 30,
+        concentration: 0.01,
+        particle: "A",
+    },
+    "2A30_0001": {
+        tau: 10.1206e-3,
+        theta: 30,
+        concentration: 0.001,
+        particle: "A",
+    },
+
+    // Mystery particle, varying angles
+    "2M25_0001": {
+        tau: 27.95e-3,
+        theta: 25,
+        concentration: 0.001,
+        particle: "M",
+    },
+    "2M35_0001": {
+        tau: 15.75e-3,
+        theta: 35,
+        concentration: 0.001,
+        particle: "M",
+    },
+    "2M45_0001": {
+        tau: 14.26e-3,
+        theta: 45,
+        concentration: 0.001,
+        particle: "M",
+    },
+    "2M55_0001": {
+        tau: 9.63e-3,
+        theta: 55,
+        concentration: 0.001,
+        particle: "M",
+    },
+}

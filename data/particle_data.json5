@@ -29,4 +29,5 @@
     known_diameter: 9.56e-6,
     std_dev_diameter: 0.25e-6,
   },
+  M: {},
 }
