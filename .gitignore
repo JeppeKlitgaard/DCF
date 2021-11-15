@@ -11,3 +11,6 @@ __pycache__/
 
 # Matlab code
 matlab/
+
+# VSCode
+.vscode/
