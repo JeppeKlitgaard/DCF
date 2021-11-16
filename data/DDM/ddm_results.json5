@@ -8,42 +8,32 @@
     },
 
     experiments: {
-        "1M01_1": {
-            particle: "M",
-            exp_diffusion_coeff: 1.210,
-            exp_diameter: 0.36392e-6,
-            concentration: 0.1,
-            setup: "20x_1",
-        },
-
-        "1M005_1": {
-            particle: "M",
-            exp_diffusion_coeff: 0.1504,
-            exp_diffusion_coeff_lower_95: 0.1484,
-            exp_diffusion_coeff_upper_95: 0.1524,
-            exp_diameter: 0.4388e-6,
-            concentration: 0.05,
-            setup: "20x_1",
-        },
-
-        "1M001_1": {
-            particle: "M",
-            exp_diffusion_coeff: 0.1415,
-            exp_diffusion_coeff_lower_95: 0.1402,
-            exp_diffusion_coeff_upper_95: 0.1427,
-            exp_diameter: 0.3e-6,
-            concentration: 0.05,
-            setup: "20x_1",
-        },
-
-        "1B05": {
-            particle: "B",
-            exp_diffusion_coeff: 0.1801033,
-            exp_diffusion_coeff_lower: 0.1783418,
-            exp_diffusion_coeff_upper: 0.1818648,
+        "1A05": {
+            particle: "A",
+            exp_diffusion_coeff: 0.2656727,
+            exp_diffusion_coeff_lower: 0.2613762,
+            exp_diffusion_coeff_upper: 0.2699692,
             concentration: 0.5,
+            setup: "20x_1"
+         },
+
+        "1A5": {
+            particle: "A",
+            exp_diffusion_coeff: 0.1268903,
+            exp_diffusion_coeff_lower: 0.1225695,
+            exp_diffusion_coeff_upper: 0.1312112,
+            concentration: 5.0,
             setup: "20x_1",
-        },
+         },
+
+        "1A5_2": {
+            particle: "A",
+            exp_diffusion_coeff: 0.2950819,
+            exp_diffusion_coeff_lower: 0.2885438,
+            exp_diffusion_coeff_upper: 0.3016200,
+            concentration: 5.0,
+            setup: "20x_1",
+         },
 
         "1B01": {
             particle: "B",
@@ -72,14 +62,79 @@
             setup: "20x_1",
         },
 
-        "1B005_1": {
+        "1B01_4": {
             particle: "B",
-            exp_diffusion_coeff: 0.1781,
-            exp_diffusion_coeff_upper_95: 0.1800,
-            exp_diffusion_coeff_lower_95: 0.1762,
+            exp_diffusion_coeff: 0.1446262,
+            exp_diffusion_coeff_lower: 0.1432761,
+            exp_diffusion_coeff_upper: 0.1459762,
+            concentration: 0.1,
+            setup: "20x_1",
+         },
+
+        "1B01_5": {
+            particle: "B",
+            exp_diffusion_coeff: 0.1166013,
+            exp_diffusion_coeff_lower: 0.1149388,
+            exp_diffusion_coeff_upper: 0.1182639,
+            concentration: 0.1,
+            setup: "20x_1",
+         },
+
+        "1B005": {
+            particle: "B",
+            exp_diffusion_coeff: 0.1773720,
+            exp_diffusion_coeff_lower: 0.1756816,
+            exp_diffusion_coeff_upper: 0.1790625,
+            concentration: 0.05,
+            setup: "20x_1",
+         },
+
+        "1B005_2": {
+            particle: "B",
+            exp_diffusion_coeff: 0.1819654,
+            exp_diffusion_coeff_lower: 0.1796051,
+            exp_diffusion_coeff_upper: 0.1843256,
+            concentration: 0.05,
+            setup: "20x_1",
+         },
+
+        "1B05": {
+            particle: "B",
+            exp_diffusion_coeff: 0.1801033,
+            exp_diffusion_coeff_lower: 0.1783418,
+            exp_diffusion_coeff_upper: 0.1818648,
+            concentration: 0.5,
+            setup: "20x_1",
+        },
+
+        "1M01_1": {
+            particle: "M",
+            exp_diffusion_coeff: 1.210,
+            exp_diameter: 0.36392e-6,
+            concentration: 0.1,
+            setup: "20x_1",
+        },
+
+        "1M005_1": {
+            particle: "M",
+            exp_diffusion_coeff: 0.1504,
+            exp_diffusion_coeff_lower_95: 0.1484,
+            exp_diffusion_coeff_upper_95: 0.1524,
+            exp_diameter: 0.4388e-6,
             concentration: 0.05,
             setup: "20x_1",
         },
+
+        "1M001_1": {
+            particle: "M",
+            exp_diffusion_coeff: 0.1415,
+            exp_diffusion_coeff_lower_95: 0.1402,
+            exp_diffusion_coeff_upper_95: 0.1427,
+            exp_diameter: 0.3e-6,
+            concentration: 0.05,
+            setup: "20x_1",
+        },
+
 
         "1E01_1": {
             particle: "E",
